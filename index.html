@@ -11,24 +11,12 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
 </head>
 
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title>Registration-Form</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-</head>
 <body>
-  <section>
-    <form method="POST" action="http://formspree.io/">
-      <h1>Want to go to Mars?</h1>
-      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-      <fieldset>
+  <section class="pad-t-2 gutter wrapper">
+    <form class="push-0" method="POST" action="http://formspree.io/">
+      <h1 class="not-bold">Want to go to Mars?</h1>
+      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <fieldset class="border">
         <legend class="giga italic pad-b-0">Personal details</legend>
       </fieldset>
       <div class="grid">
@@ -54,11 +42,11 @@
           </select>
         </div>
       </div>
-      <div>
+      <div class="push">
         <label>Address</label>
         <textarea id="address" name="address"></textarea>
       </div>
-      <fieldset>
+      <fieldset class="border push">
         <legend class="giga italic">Mission statement</legend>
       </fieldset>
       <div class="push">
